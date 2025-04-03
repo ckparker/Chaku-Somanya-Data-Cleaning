@@ -3,7 +3,7 @@ import pandas as pd
 import simplekml
 
 # Step 1: Load the Excel file
-file_path = r"C:\Users\CHAKU FOODS\Documents\Data Collection Cleaning\Farm Table_Updated.xlsx" #use the file path on your own local disk
+file_path = r"C:\Users\CHAKU FOODS\Documents\Budu Data\Budu Farm Table.xlsx" #use the file path on your own local disk
 data = pd.read_excel(file_path)
 
 data.head()
