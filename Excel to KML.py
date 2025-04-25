@@ -3,7 +3,7 @@ import pandas as pd
 import simplekml
 
 # Step 1: Load the Excel file
-file_path = r"C:\Users\CHAKU FOODS\OneDrive - MSFT\Chaku\Data Cleaning Scripts\Chaku-Somanya-Data-Cleaning\Budu Farm Table.xlsx" #use the file path on your own local disk
+file_path = r"C:\Users\CHAKU FOODS\Downloads\KJEF Farm.xlsx" #use the file path on your own local disk
 data = pd.read_excel(file_path)
 
 data.head()
@@ -50,5 +50,5 @@ for index, row in data.iterrows():
         pol.style = polystyle
 
 # Step 5: Save the KML to a file
-kml.save("Budu Farm Boundaries.kml")
+kml.save("KJEF Farm Boundaries.kml")
 print("KML file created successfully!")
